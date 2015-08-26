@@ -8,16 +8,16 @@ This package contains developer tools, which aid in creating and debugging conte
 
 ## Features
 
-<!-- TODO -->
+- [StackTracePlus](https://github.com/ignacio/StackTracePlus): An enhanced
+error handler, which enriches stack traces with more information.
 
 
 ## Usage
 
-<!-- TODO -->
+To enable the enhanced error handler, set the config value `debug.error-handler` to `enhanced`.
 
 
 ## Licence and copyright
-
 
 Copyright © Henry Kielmann
 
