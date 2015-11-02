@@ -20,8 +20,8 @@ function errorhandler.restore()
     ENGINE.SetErrorFunction(errorhandler.original)
 end
 
-local errorHandlerName = Config.get('debug.error-handler')
-if errorHandler == 'enhanced' then
+local errorHandlerName = Config.get('debug.error-handler', 'simple')
+if errorHandlerName == 'enhanced' then
     errorhandler.enable()
 end
 
