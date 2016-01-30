@@ -1,9 +1,9 @@
-Apoapsis DevTools Package
+Konstrukt DevTools Package
 =========================
 
-A package for a game called [Apoapsis](https://github.com/henry4k/apoapsis).
+A package for a game called [Konstrukt](https://github.com/henry4k/konstrukt).
 
-This package contains developer tools, which aid in creating and debugging content for apoapsis.
+This package contains developer tools, which aid in creating and debugging content for Konstrukt.
 
 
 ## Features
