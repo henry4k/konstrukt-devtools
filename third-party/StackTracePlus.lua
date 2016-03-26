@@ -41,8 +41,7 @@ local m_known_tables = {
     [table]     = "table module",
     [math]      = "math module",
     [debug]     = "debug module",
-    [coroutine] = "coroutine module",
-    [ENGINE]    = "ENGINE module"
+    [coroutine] = "coroutine module"
 }
 
 

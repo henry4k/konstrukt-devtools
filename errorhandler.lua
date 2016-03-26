@@ -1,3 +1,4 @@
+local engine = require 'engine'
 local Config = require 'core/Config'
 local STP    = require 'devtools/third-party/StackTracePlus'
 
@@ -9,7 +10,7 @@ local stpErrorHandler = function( message )
 end
 
 function errorhandler.enable()
-    local previousHandler = ENGINE.SetErrorFunction(stpErrorHandler)
+    local previousHandler = engine.SetErrorFunction(stpErrorHandler)
     if not errorhandler.original and
        previousHandler ~= stpErrorHandler then
         errorhandler.original = previousHandler
@@ -17,7 +18,7 @@ function errorhandler.enable()
 end
 
 function errorhandler.restore()
-    ENGINE.SetErrorFunction(errorhandler.original)
+    engine.SetErrorFunction(errorhandler.original)
 end
 
 local errorHandlerName = Config.get('debug.error-handler', 'simple')
