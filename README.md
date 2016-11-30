@@ -1,7 +1,7 @@
 Konstrukt DevTools Package
 =========================
 
-A package for a game called [Konstrukt](https://github.com/henry4k/konstrukt).
+A package for an engine called [Konstrukt](https://github.com/henry4k/konstrukt).
 
 This package contains developer tools, which aid in creating and debugging content for Konstrukt.
 
