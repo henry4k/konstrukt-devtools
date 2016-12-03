@@ -1,3 +1,6 @@
 {
-   "type": "regular"
+    "name": "devtools",
+    "version": "0.0.0",
+    "description": "This package contains developer tools, which aid in creating and debugging content for Konstrukt.",
+    "type": "regular"
 }
